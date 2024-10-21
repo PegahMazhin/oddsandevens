@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#number-input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.bank-section, .categories {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #f4f4f4;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.sort-buttons {
+  text-align: center;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+}
+
+.category {
+  width: 45%;
+}
